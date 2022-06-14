@@ -37,7 +37,7 @@ function AdminHeader() {
       {employeeLogin && (
         <HomeEmployeeLogin setAdminLogin={setEmployeeLogin}></HomeEmployeeLogin>
       )}
-      <Navbar expand="lg" bg="#F2EBD1" className="the__navbar">
+      <Navbar expand="lg" bg="#F2EBD1" className="the__admin__navbar">
         <Navbar.Brand href="/" className={"navbar__brand"}>
           <img
             src="https://uploads-ssl.webflow.com/60f9992abb0c4bd8b15b2240/621ce3e6d43c6b1ad8d4186b_fizz-nav-logo.svg"
